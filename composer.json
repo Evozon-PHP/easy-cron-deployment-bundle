@@ -1,22 +1,26 @@
 {
-    "name": "madrakio/easy-cron-deployment-bundle",
+    "name": "evozon-php/easy-cron-deployment-bundle",
     "description": "Easy Cron Deployment Bundle: An easy way to manage your cron using YAML and Symfony Console",
     "keywords": ["cron", "management", "symfony", "deployment"],
-    "homepage": "https://github.com/madrakio/easy-cron-deployment-bundle",
+    "homepage": "https://github.com/Evozon-PHP/easy-cron-deployment-bundle",
     "authors": [
         {
             "name": "John Madrak",
             "homepage": "http://madrak.net",
             "role": "Developer"
+        },
+        {
+            "name": "Balazs Csaba",
+            "role": "Developer"
         }
     ],
     "license": "MIT",
     "require": {
-        "php": ">=5.4",
-        "symfony/symfony": ">=2.7.0"
+        "php": ">=7.1",
+        "symfony/symfony": "^4.0"
     },
     "require-dev": {
-        "symfony/phpunit-bridge": "~2.7"
+        "symfony/phpunit-bridge": "^4.0"
     },
     "autoload": {                                                                                                                                                                                                                         
         "psr-4": {                                                                                                                                                                                                                        
